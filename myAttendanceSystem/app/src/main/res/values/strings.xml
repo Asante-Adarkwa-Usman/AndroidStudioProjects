@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">myAttendanceSystem</string>
+    <string name="text_input">Enter Your Staff ID</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_Checkin">CHECKIN</string>
+    <string name="title">LogIn</string>
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="btnLogin">login</string>
+    <string name="signup_text">Sign Up Here</string>
+    <string name="greeting">Welcome</string>
+    <string name="cont_description">TODO</string>
+    <string name="btn_checkout">CheckOut</string>
+    <string name="checkout_text">See You Next Time</string>
+</resources>
