@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "827505438349",
+    "firebase_url": "https://aiti-kace-app.firebaseio.com",
+    "project_id": "aiti-kace-app",
+    "storage_bucket": "aiti-kace-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827505438349:android:54d9ec32ac5b4e78",
+        "android_client_info": {
+          "package_name": "com.example.aiti_kaceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827505438349-ft5eq9se6vtjtckthv7vamdnlmujsde7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aiti_kaceapp",
+            "certificate_hash": "d86542f7dae42d1111754da656997dd8b889a019"
+          }
+        },
+        {
+          "client_id": "827505438349-kllhsbqt0f4hcofeafmue2igltr1oer6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhoYJwIQCk2M8LydxMqRluvBShXwBSWwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827505438349-kllhsbqt0f4hcofeafmue2igltr1oer6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

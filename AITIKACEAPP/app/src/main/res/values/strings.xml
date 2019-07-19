@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AITI-KACE APP</string>
+    <string name="inputId_hint">Enter Staff Id</string>
+</resources>
