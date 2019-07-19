@@ -10,9 +10,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="478dp"
-        android:layout_height="264dp"
-        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="fitCenter"
         android:src="@drawable/aitilogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,19 +23,38 @@
 
     <EditText
         android:id="@+id/idInput"
-        android:layout_width="346dp"
-        android:layout_height="82dp"
+        android:layout_width="317dp"
+        android:layout_height="67dp"
+        android:background="@drawable/inputid_design"
         android:drawableLeft="@drawable/ic_person_black_24dp"
         android:drawablePadding="10dp"
         android:ems="10"
         android:fontFamily="serif"
+        android:hint="@string/inputId_hint"
         android:inputType="text"
         android:padding="10dp"
-        android:text="@string/inputId_hint"
+        android:textColor="#242323"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.113" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="202dp"
+        android:layout_height="58dp"
+        android:background="@drawable/submitbtn_design"
+        android:fontFamily="serif"
+        android:text="@string/button_text"
+        android:textColor="#F3EEEE"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idInput"
+        app:layout_constraintVertical_bias="0.144" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

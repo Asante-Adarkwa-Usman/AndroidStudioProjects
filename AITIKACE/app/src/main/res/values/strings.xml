@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">AITI-KACE</string>
-    <string name="input_staff_id">Enter Staff Id Here</string>
-    <string name="btn_Submit">Submit</string>
-    <string name="checkin_text">CheckIn</string>
-    <string name="greeting">Welcome</string>
-    <string name="checkout_text">CheckOut</string>
-    <string name="after_work">See You Next Time</string>
-</resources>

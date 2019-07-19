@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">AITI-KACE APP</string>
     <string name="inputId_hint">Enter Staff Id</string>
+    <string name="button_text">Submit</string>
+    <string name="login_text">Log In</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="getStarted_text">Get Started</string>
+    <string name="decision_text">Don\'t have an Account?</string>
+    <string name="register_text">Register</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="signup_name">Full name</string>
+    <string name="con_password">Confirm Password</string>
 </resources>
