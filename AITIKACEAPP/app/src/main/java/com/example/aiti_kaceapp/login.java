@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class login extends AppCompatActivity {
     Button login;
     EditText userEmail, userPassword;
+    TextView userRegister, userAdmin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,28 @@ public class login extends AppCompatActivity {
 
             }
         });
+       userRegister = (TextView)findViewById(R.id.txtRegister);
+       userAdmin = (TextView)findViewById(R.id.txtAdmin);
+userRegister.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent signupPage = new Intent(login.this, signup.class);
+        startActivity(signupPage);
+    }
+});
+userAdmin.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent adminPage = new Intent(login.this, admin.class);
+        startActivity(adminPage);
+    }
+});
+
+
+
+
+
+
 
 
     }
