@@ -12,13 +12,15 @@
         <activity android:name=".checkout"></activity>
         <activity android:name=".checkin" />
         <activity android:name=".signup">
+
+        </activity>
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login" />
         <activity android:name=".MainActivity" />
     </application>
 

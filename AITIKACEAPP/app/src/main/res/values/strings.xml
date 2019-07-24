@@ -11,4 +11,13 @@
     <string name="signup_text">Sign Up</string>
     <string name="signup_name">Full name</string>
     <string name="con_password">Confirm Password</string>
+    <string name="admin_text">Admin</string>
+    <string name="login_msg">Login as</string>
+    <string name="option">- Or -</string>
+    <string name="greeting">Welcome</string>
+    <string name="inspire_msg">Have a nice working experience</string>
+    <string name="checkin_text">Check In</string>
+    <string name="checkout_text">Check Out</string>
+
+
 </resources>
