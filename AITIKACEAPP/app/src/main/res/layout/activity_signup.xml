@@ -29,20 +29,22 @@
         android:id="@+id/signupName"
         android:layout_width="320dp"
         android:layout_height="55dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/signup_name"
+        android:background="@drawable/inputid_design"
         android:drawableLeft="@drawable/ic_person_black_24dp"
         android:drawablePadding="10dp"
-        android:padding="10dp"
-        android:textColor="#6D4D4D"
+        android:ems="10"
         android:fontFamily="serif"
-        android:background="@drawable/inputid_design"
+        android:hint="@string/signup_name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#242323"
+        android:textColorHint="#7C7171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.197" />
 
     <EditText
         android:id="@+id/signupMail"
@@ -56,13 +58,14 @@
         android:hint="@string/email_text"
         android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:textColor="#6D4D4D"
+        android:textColor="#242323"
+        android:textColorHint="#7C7171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupName"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <EditText
         android:id="@+id/signupPassword"
@@ -76,13 +79,14 @@
         android:hint="@string/password_text"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColor="#6D4D4D"
+        android:textColor="#242323"
+        android:textColorHint="#7C7171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupMail"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <EditText
         android:id="@+id/signupConPassword"
@@ -96,18 +100,19 @@
         android:hint="@string/con_password"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColor="#6D4D4D"
+        android:textColor="#242323"
+        android:textColorHint="#7C7171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupPassword"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.077" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="163dp"
-        android:layout_height="59dp"
+        android:id="@+id/btnRegister"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
         android:background="@drawable/submitbtn_design"
         android:fontFamily="serif"
         android:text="@string/register_text"
@@ -118,5 +123,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupConPassword"
-        app:layout_constraintVertical_bias="0.124" />
+        app:layout_constraintVertical_bias="0.164" />
+
+    <EditText
+        android:id="@+id/signupStaffId"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/inputid_design"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="@string/staff_text"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#242323"
+        android:textColorHint="#7C7171"
+        app:layout_constraintBottom_toTopOf="@+id/signupName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.625" />
 </androidx.constraintlayout.widget.ConstraintLayout>

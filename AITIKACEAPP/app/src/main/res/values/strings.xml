@@ -18,6 +18,8 @@
     <string name="inspire_msg">Have a nice working experience</string>
     <string name="checkin_text">Check In</string>
     <string name="checkout_text">Check Out</string>
+    <string name="staff_text">Staff Id</string>
+    <string name="bye_msg">See you next time</string>
 
 
 </resources>

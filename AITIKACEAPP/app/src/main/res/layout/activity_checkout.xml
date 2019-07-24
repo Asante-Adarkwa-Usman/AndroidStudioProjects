@@ -4,6 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".checkout">
+    tools:context=".checkout"
+    android:background="@drawable/login_design">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="359dp"
+        android:layout_height="107dp"
+        android:fontFamily="cursive"
+        android:text="@string/bye_msg"
+        android:textAlignment="center"
+        android:textColor="#6D4D4D"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="313dp"
+        android:layout_height="64dp"
+        android:text="@string/checkout_text"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:background="@drawable/submitbtn_design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.382" />
 </androidx.constraintlayout.widget.ConstraintLayout>
