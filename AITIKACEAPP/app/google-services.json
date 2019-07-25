@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "827505438349-nivea1bhhgts7o39oq17crvj4for00ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aiti_kaceapp",
+            "certificate_hash": "819f7086aaa35675931824a9f146f1fced171ac5"
+          }
+        },
+        {
           "client_id": "827505438349-ft5eq9se6vtjtckthv7vamdnlmujsde7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
